@@ -1,5 +1,5 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=alci-calamares-config
+pkgname=alci-calamares-config-dev
 _destname1="/etc"
 pkgver=21.01
 pkgrel=23
@@ -9,7 +9,7 @@ url="https://github.com/arcolinuxiso"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('alci-calamares-config-dev')
+conflicts=('alci-calamares-config')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
