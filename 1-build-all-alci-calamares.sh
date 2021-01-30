@@ -48,7 +48,7 @@ if [[ "$response" == [yY] ]]; then
 
 		count=0
 
-		for name in $(ls -d alci-cal*/); do
+		for name in $(ls -d alci-calamares-c*/); do
 			count=$[count+1]
 			cd $name
 			tput setaf 1;echo "Github "$count;tput sgr0;
@@ -58,7 +58,7 @@ if [[ "$response" == [yY] ]]; then
 			makepkg -f
 
 			mv alci*pkg.tar.zst $destination
-			
+
 			rm -r pkg
 			rm -r src
 			rm -rf alci*
