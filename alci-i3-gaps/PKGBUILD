@@ -1,0 +1,52 @@
+# Maintainer: Morten Linderud <foxboron@archlinux.org>
+# Contributor: Ingo Bürk <admin at airblader dot de>
+pkgname=alci-i3-gaps
+_pkgname=i3-gaps
+pkgver=4.19
+pkgrel=1
+pkgdesc='A fork of i3wm tiling window manager with more features, including gaps'
+arch=('i686' 'x86_64')
+url='https://github.com/Airblader/i3'
+license=('BSD')
+provides=('i3-wm')
+conflicts=('i3-wm')
+groups=('i3')
+depends=('xcb-util-keysyms' 'xcb-util-wm' 'libev' 'yajl'
+         'startup-notification' 'pango' 'perl' 'xcb-util-cursor' 'xcb-util-xrm'
+         'libxkbcommon-x11')
+makedepends=('bison' 'flex' 'asciidoc' 'xmlto' 'meson')
+optdepends=('rxvt-unicode: The terminal emulator used in the default config.'
+            'dmenu: As menu.'
+            'i3lock: For locking your screen.'
+            'i3status: To display system information with a bar.'
+            'perl-json-xs: For i3-save-tree'
+            'perl-anyevent-i3: For i3-save-tree')
+backup=(etc/i3/config)
+options=('docs')
+source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/Airblader/i3/archive/${pkgver}.tar.gz"
+        "i3.desktop"
+        "alci-config")
+sha256sums=('dbd739dae5c16a94763dac0a7407d0307f0814f7bf48b99591b772820c874b4f'
+            '793a00b511f5760a5d3cc571659a04e64b47498c831d81b5ec1cdbedf23eff02'
+            'cbbf0af0e251a5bed2ab0a40f058fd1a6dc732f54096c6c7f7958ff8a66ea008')
+
+build() {
+  cd "i3-${pkgver}"
+  arch-meson \
+    -Ddocs=true \
+    -Dmans=true \
+  ../build
+  meson compile -C ../build
+}
+
+package() {
+  install -m644 "${srcdir}/i3.desktop" "${srcdir}/i3-${pkgver}/share/xsessions/i3.desktop"
+  install -m644 "${srcdir}/i3.desktop" "${srcdir}/i3-${pkgver}/share/applications/i3.desktop"
+  install -m644 "${srcdir}/alci-config" "${srcdir}/i3-${pkgver}/etc/config"
+  cd "i3-${pkgver}"
+  DESTDIR="$pkgdir" meson install -C ../build
+  install -Dt "$pkgdir/usr/share/licenses/$_pkgname" -m644 LICENSE
+
+}
+
+# vim:set ts=2 sw=2 et:
