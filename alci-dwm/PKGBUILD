@@ -1,0 +1,54 @@
+# Maintainer: Erik Dubois <erik.dubois@gmail.com>
+pkgname=alci-dwm
+_pkgname=alci-dwm
+_destname1="/etc/skel/.config/"
+_destname2="/usr/share/doc/dwm/"
+_destname3="/usr/share/licenses/dwm/"
+_destname4="/usr/share/man/man1/"
+_destname5="/usr/share/xsessions/"
+_licensedir="/usr/share/arcolinux/licenses/"
+pkgver=21.01
+pkgrel=9
+pkgdesc="Configuration files for alci Iso"
+arch=('any')
+url="https://github.com/arcolinuxiso/alci-dwm"
+license=('GPL3')
+makedepends=('git')
+depends=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${_pkgname}::"git+https://github.com/arcolinuxiso/${_pkgname}.git")
+sha256sums=('SKIP')
+install='readme.install'
+
+build() {
+  cd "$srcdir/$_pkgname/etc/skel/.config/alci-dwm/"
+  make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11 FREETYPEINC=/usr/include/freetype2
+}
+
+package() {
+
+  cd "$srcdir/$_pkgname/etc/skel/.config/alci-dwm/"
+  make PREFIX=/usr DESTDIR="$pkgdir" install
+
+	install -dm755 ${pkgdir}${_licensedir}${_pkgname}
+	install -m644  ${srcdir}/${_pkgname}/LICENSE ${pkgdir}${_licensedir}${_pkgname}
+
+	install -dm755 ${pkgdir}${_destname1}
+	cp -r  ${srcdir}/${_pkgname}${_destname1}* ${pkgdir}${_destname1}
+
+	# install -dm755 ${pkgdir}${_destname2}
+	# cp -r  ${srcdir}/${_pkgname}${_destname2}* ${pkgdir}${_destname2}
+
+	# install -dm755 ${pkgdir}${_destname3}
+	# cp -r  ${srcdir}/${_pkgname}${_destname3}* ${pkgdir}${_destname3}
+
+	# install -dm755 ${pkgdir}${_destname4}
+	# cp -r  ${srcdir}/${_pkgname}${_destname4}* ${pkgdir}${_destname4}
+
+	install -dm755 ${pkgdir}${_destname5}
+	cp -r  ${srcdir}/${_pkgname}${_destname5}* ${pkgdir}${_destname5}
+	mv ${pkgdir}${_destname5}/dwm.desktop ${pkgdir}${_destname5}/dwmalci.desktop
+	sed -i "s/Exec=dwm/Exec=dwmalci/g" ${pkgdir}${_destname5}/dwmalci.desktop
+	sed -i "s/Name=Dwm/Name=Dwmalci/g" ${pkgdir}${_destname5}/dwmalci.desktop	
+}

@@ -25,16 +25,19 @@ backup=(etc/i3/config)
 options=('docs')
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/Airblader/i3/archive/${pkgver}.tar.gz"
         "i3.desktop"
-        "alci-config")
+        "alci-config"
+        "meson.build")
 sha256sums=('dbd739dae5c16a94763dac0a7407d0307f0814f7bf48b99591b772820c874b4f'
             '793a00b511f5760a5d3cc571659a04e64b47498c831d81b5ec1cdbedf23eff02'
-            'cbbf0af0e251a5bed2ab0a40f058fd1a6dc732f54096c6c7f7958ff8a66ea008')
+            'cbbf0af0e251a5bed2ab0a40f058fd1a6dc732f54096c6c7f7958ff8a66ea008'
+            '38a278688d9c78b1a59fb37e4636ba3e593c94eba0d086b346ebc972e7a8664b')
 
 build() {
   cd "i3-${pkgver}"
+  install -m644 "${srcdir}/meson.build" "${srcdir}/i3-${pkgver}/meson.build"
   arch-meson \
-    -Ddocs=true \
-    -Dmans=true \
+    -Ddocs=false \
+    -Dmans=false \
   ../build
   meson compile -C ../build
 }
