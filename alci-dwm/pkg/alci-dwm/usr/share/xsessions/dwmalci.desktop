@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=Dwmalci
-Comment=Dynamic window manager
-Exec=dwmalci
-Icon=dwm
-Type=XSession
