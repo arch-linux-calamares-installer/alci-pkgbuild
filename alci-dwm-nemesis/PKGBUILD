@@ -1,6 +1,6 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=alci-dwm
-_pkgname=alci-dwm
+pkgname=alci-dwm-nemesis
+_pkgname=alci-dwm-nemesis
 _destname1="/etc/skel/.config/"
 _destname2="/usr/share/doc/dwm/"
 _destname3="/usr/share/licenses/dwm/"
@@ -11,11 +11,11 @@ pkgver=21.01
 pkgrel=11
 pkgdesc="Configuration files for alci Iso"
 arch=('any')
-url="https://github.com/arcolinuxiso/alci-dwm"
+url="https://github.com/arcolinuxiso/alci-dwm-nemesis"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=("alci-dwm-nemesis")
+conflicts=("alci-dwm")
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${_pkgname}::"git+https://github.com/arcolinuxiso/${_pkgname}.git")

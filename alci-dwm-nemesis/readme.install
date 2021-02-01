@@ -1,0 +1,12 @@
+post_install() {
+    cd /etc/skel/.config/alci-dwm
+    echo -e "\n** Building dwm **\n"
+    make -s
+    make -s install
+    echo
+    echo -e "\n** The files have been installed in /etc/skel/.config/ **\n"
+}
+
+post_upgrade() {
+    post_install
+}
