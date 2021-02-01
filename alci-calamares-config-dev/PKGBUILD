@@ -2,7 +2,7 @@
 pkgname=alci-calamares-config-dev
 _destname1="/etc"
 pkgver=21.01
-pkgrel=51
+pkgrel=52
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arcolinuxiso"
