@@ -11,7 +11,7 @@
 #
 ##################################################################################################################
 
-destination=$HOME"/ARCO/ALCI/alci_repo/x86_64/"
+destination=$HOME"/ALCI/alci_repo/x86_64/"
 
 echo "#############################################################################################"
 echo
@@ -20,7 +20,7 @@ echo "Scans the existing folders"
 echo "Be sure you have the highest number for all of them"
 echo
 echo "#############################################################################################"
-echo "Give the pkgversion number like 21.01"
+echo "Give the pkgversion number like 21.02"
 echo "#############################################################################################"
 
 read pkgver

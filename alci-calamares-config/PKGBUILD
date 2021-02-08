@@ -2,14 +2,14 @@
 pkgname=alci-calamares-config
 _destname1="/etc"
 pkgver=21.02
-pkgrel=1
+pkgrel=2
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arcolinuxiso"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('alci-calamares-config-dev')
+conflicts=('alci-calamares-config-dev' 'alci-calamares-config-pure')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
