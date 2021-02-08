@@ -1,0 +1,22 @@
+pkgname=nemesis-wallpapers
+_pkgname=nemesis-wallpapers
+_destname1="/usr/share/backgrounds/nemesis/"
+#_licensedir="/usr/share/arcolinux/licenses/"
+pkgver=21.02
+pkgrel=1
+pkgdesc="Wallpapers for nemesis"
+arch=('any')
+url="https://github.com/arcolinuxiso/nemesis-wallpapers"
+license=('GPL3')
+makedepends=('git')
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${_pkgname}::"git+https://github.com/arcolinuxiso/${_pkgname}.git")
+sha256sums=('SKIP')
+package() {
+#	install -dm755 ${pkgdir}${_licensedir}${_pkgname}
+#	install -m644  ${srcdir}/${_pkgname}/LICENSE ${pkgdir}${_licensedir}${_pkgname}
+
+	install -dm755 ${pkgdir}${_destname1}
+	cp -r  ${srcdir}/${_pkgname}${_destname1}* ${pkgdir}${_destname1}
+}
