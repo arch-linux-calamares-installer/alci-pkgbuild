@@ -11,14 +11,14 @@ pkgver=21.01
 pkgrel=21
 pkgdesc="Configuration files for alci Iso"
 arch=('any')
-url="https://github.com/arcolinuxiso/alci-dwm-nemesis"
+url="https://github.com/arch-linux-calamares-installer/alci-dwm-nemesis"
 license=('GPL3')
 makedepends=('git')
 depends=()
 conflicts=("alci-dwm")
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${_pkgname}::"git+https://github.com/arcolinuxiso/${_pkgname}.git")
+source=(${_pkgname}::"git+https://github.com/arch-linux-calamares-installer/${_pkgname}.git")
 sha256sums=('SKIP')
 install='readme.install'
 
