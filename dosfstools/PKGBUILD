@@ -1,7 +1,7 @@
 # Maintainer: 
 # Committer: Judd Vinet <jvinet@zeroflux.org>
 
-pkgname=alci-dosfstools
+pkgname=dosfstools
 _pkgname=dosfstools
 pkgver=4.1
 pkgrel=3
