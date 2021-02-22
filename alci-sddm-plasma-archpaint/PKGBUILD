@@ -1,0 +1,22 @@
+# Maintainer: Erik Dubois <erik.dubois@gmail.com>
+pkgname=alci-sddm-plasma-archpaint
+_destname1="/usr"
+_licensedir="/usr/share/alci/licenses/"
+pkgver=21.02
+pkgrel=1
+pkgdesc="ArchPaint2 Breeze SDDM theme adapted for ALCI"
+arch=('any')
+url="https://github.com/arch-linux-calamares-installer/${pkgname}"
+license=('GPL3')
+depends=('ttf-roboto' 'kdeplasma-addons')
+install=$pkgname.install
+makedepends=('git')
+options=(!strip !emptydirs)
+source=(${pkgname}::git+$url)
+sha256sums=('SKIP')
+package() {
+  install -dm755 ${pkgdir}${_licensedir}${pkgname}
+  install -m644  ${srcdir}/${pkgname}/LICENSE ${pkgdir}${_licensedir}${pkgname}
+
+  cp -r ${srcdir}/${pkgname}/${_destname1} ${pkgdir}
+}

@@ -1,0 +1,15 @@
+post_install() {
+  echo
+  tput setaf 2
+  echo "To use this theme, add or change the following lines in /etc/sddm.conf"
+  echo "or the file in /etc/sddm.conf.d folder"
+  echo
+  echo "[Theme]"
+  echo "Current=alci-archpaint"
+  tput sgr0
+  echo
+}
+
+post_upgrade() {
+  post_install
+}
