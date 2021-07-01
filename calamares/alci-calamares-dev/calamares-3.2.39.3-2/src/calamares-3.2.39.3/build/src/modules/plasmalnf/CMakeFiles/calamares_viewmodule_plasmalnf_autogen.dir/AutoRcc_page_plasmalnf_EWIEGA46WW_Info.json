@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen",
+	"CMAKE_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/modules/plasmalnf",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/modules/plasmalnf",
+	"CMAKE_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3",
+	"INCLUDE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/modules/plasmalnf/view-preview.png"
+	],
+	"LOCK_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/AutoRcc_page_plasmalnf_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "page_plasmalnf" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_page_plasmalnf.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf_autogen.dir/AutoRcc_page_plasmalnf_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/modules/plasmalnf/page_plasmalnf.qrc",
+	"VERBOSITY" : 0
+}

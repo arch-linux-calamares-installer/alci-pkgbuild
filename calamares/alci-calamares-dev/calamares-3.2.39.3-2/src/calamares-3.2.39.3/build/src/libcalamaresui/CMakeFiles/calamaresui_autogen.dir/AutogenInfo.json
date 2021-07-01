@@ -1,0 +1,368 @@
+{
+	"BUILD_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/calamaresui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/CMakeLists.txt",
+		"/usr/share/cmake-3.20/Modules/GNUInstallDirs.cmake",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/libcalamaresui.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/3rdparty/waitingspinnerwidget.h",
+			"Mu",
+			"GLIBJZZR4B/moc_waitingspinnerwidget.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/Branding.h",
+			"Mu",
+			"EWIEGA46WW/moc_Branding.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/ViewManager.h",
+			"Mu",
+			"EWIEGA46WW/moc_ViewManager.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/CppJobModule.h",
+			"Mu",
+			"RUACCQ4MTV/moc_CppJobModule.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ModuleFactory.h",
+			"Mu",
+			"RUACCQ4MTV/moc_ModuleFactory.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ModuleManager.h",
+			"Mu",
+			"RUACCQ4MTV/moc_ModuleManager.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ProcessJobModule.h",
+			"Mu",
+			"RUACCQ4MTV/moc_ProcessJobModule.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/PythonJobModule.h",
+			"Mu",
+			"RUACCQ4MTV/moc_PythonJobModule.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ViewModule.h",
+			"Mu",
+			"RUACCQ4MTV/moc_ViewModule.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/CalamaresUtilsGui.h",
+			"Mu",
+			"7HEHEGDA3T/moc_CalamaresUtilsGui.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/ImageRegistry.h",
+			"Mu",
+			"7HEHEGDA3T/moc_ImageRegistry.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/Paste.h",
+			"Mu",
+			"7HEHEGDA3T/moc_Paste.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/Qml.h",
+			"Mu",
+			"7HEHEGDA3T/moc_Qml.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/BlankViewStep.h",
+			"Mu",
+			"4DS6FYB4U4/moc_BlankViewStep.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/ExecutionViewStep.h",
+			"Mu",
+			"4DS6FYB4U4/moc_ExecutionViewStep.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/QmlViewStep.h",
+			"Mu",
+			"4DS6FYB4U4/moc_QmlViewStep.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/Slideshow.h",
+			"Mu",
+			"4DS6FYB4U4/moc_Slideshow.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/ViewStep.h",
+			"Mu",
+			"4DS6FYB4U4/moc_ViewStep.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/ClickableLabel.h",
+			"Mu",
+			"IMAN36LHMA/moc_ClickableLabel.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/FixedAspectRatioLabel.h",
+			"Mu",
+			"IMAN36LHMA/moc_FixedAspectRatioLabel.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/PrettyRadioButton.h",
+			"Mu",
+			"IMAN36LHMA/moc_PrettyRadioButton.cpp",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/WaitingWidget.h",
+			"Mu",
+			"IMAN36LHMA/moc_WaitingWidget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/calamaresui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/calamaresui_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKWIDGETS_LIB",
+		"QT_QUICK_LIB",
+		"QT_SHARED",
+		"QT_SHAREDPOINTER_TRACK_POINTERS",
+		"QT_STRICT_ITERATORS",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UIDLLEXPORT_PRO",
+		"WITH_KOSRelease",
+		"calamaresui_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamares",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamares",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui",
+		"/usr/include/libcalamares",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/KF5/KCoreAddons",
+		"/usr/include/KF5",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtXml",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtSvg",
+		"/usr/include/qt/QtQuickWidgets",
+		"/usr/include/qt/QtQuick",
+		"/usr/include/qt/QtQmlModels",
+		"/usr/include/qt/QtQml",
+		"/usr/include",
+		"/usr/include/c++/11.1.0",
+		"/usr/include/c++/11.1.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/11.1.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/calamaresui_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/test_libcalamaresuipaste_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/build/src/libcalamaresui/CMakeFiles/calamaresui_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/3rdparty/waitingspinnerwidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/Branding.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/ViewManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/CppJobModule.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ModuleFactory.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ModuleManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ProcessJobModule.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/PythonJobModule.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/modulesystem/ViewModule.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/CalamaresUtilsGui.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/ImageRegistry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/Paste.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/utils/Qml.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/BlankViewStep.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/ExecutionViewStep.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/QmlViewStep.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/Slideshow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/viewpages/ViewStep.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/ClickableLabel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/FixedAspectRatioLabel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/PrettyRadioButton.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares-dev/calamares-3.2.39.3-2/src/calamares-3.2.39.3/src/libcalamaresui/widgets/WaitingWidget.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
