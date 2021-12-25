@@ -1,5 +1,5 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=alci-calamares-config-lts
+pkgname=alci-calamares-config-hardened
 _destname1="/etc"
 pkgver=21.12
 pkgrel=01
@@ -9,7 +9,7 @@ url="https://github.com/arch-linux-calamares-installer"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('alci-calamares-config' 'alci-calamares-config-pure' 'alci-calamares-config-btrfs' 'alci-calamares-config-dev' 'alci-calamares-config-zen' 'alci-calamares-config-hardened')
+conflicts=('alci-calamares-config' 'alci-calamares-config-pure' 'alci-calamares-config-btrfs' 'alci-calamares-config-dev'  'alci-calamares-config-zen' 'alci-calamares-config-lts')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
