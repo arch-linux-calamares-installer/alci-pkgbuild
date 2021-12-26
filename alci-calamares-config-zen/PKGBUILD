@@ -2,7 +2,7 @@
 pkgname=alci-calamares-config-zen
 _destname1="/etc"
 pkgver=21.12
-pkgrel=01
+pkgrel=05
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"

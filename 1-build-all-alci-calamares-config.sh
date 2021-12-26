@@ -20,7 +20,7 @@ echo "Scans the existing folders"
 echo "Be sure you have the highest number for all of them"
 echo
 echo "#############################################################################################"
-echo "Give the pkgversion number like 21.07"
+echo "Give the pkgversion number like 21.12"
 echo "#############################################################################################"
 
 read pkgver
@@ -48,7 +48,7 @@ if [[ "$response" == [yY] ]]; then
 
 		count=0
 
-		for name in $(ls -d alci-calamares-c*/); do
+		for name in $(ls -d alci-calamares-config*/); do
 			count=$[count+1]
 			cd $name
 			tput setaf 1;echo "Github "$count;tput sgr0;
