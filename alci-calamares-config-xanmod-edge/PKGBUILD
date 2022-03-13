@@ -2,7 +2,7 @@
 pkgname=alci-calamares-config-xanmod-edge
 _destname1="/etc"
 pkgver=22.03
-pkgrel=01
+pkgrel=02
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"
