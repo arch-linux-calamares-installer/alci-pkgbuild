@@ -20,7 +20,7 @@ makepkg
 echo "Moving created files to " $destiny
 echo "#############################################################################################"
 mv $search*pkg.tar.zst $destiny
-mv $search*pkg.tar.zst.sig $destiny
+
 echo "Cleaning up"
 echo "#############################################################################################"
 echo "deleting unnecessary folders"
