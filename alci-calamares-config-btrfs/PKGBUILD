@@ -2,7 +2,7 @@
 pkgname=alci-calamares-config-btrfs
 _destname1="/etc"
 pkgver=22.06
-pkgrel=05
+pkgrel=15
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"
