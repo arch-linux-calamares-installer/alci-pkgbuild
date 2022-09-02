@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen",
+	"CMAKE_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build/src/modules/packagechooserq",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq",
+	"CMAKE_SOURCE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61",
+	"INCLUDE_DIR" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build/src/modules/packagechooserq/calamares_viewmodule_packagechooserq_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq/packagechooserq.qml",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq/images/libreoffice.jpg",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq/images/no-selection.png",
+		"/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq/images/plasma.png"
+	],
+	"LOCK_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/AutoRcc_packagechooserq_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "packagechooserq" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_packagechooserq.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/build/src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/AutoRcc_packagechooserq_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/erik/ALCI/alci-pkgbuild/calamares/alci-calamares/calamares-3.2.61-1/src/calamares-3.2.61/src/modules/packagechooserq/packagechooserq.qrc",
+	"VERBOSITY" : 0
+}
