@@ -1,0 +1,31 @@
+# Maintainer: Erik Dubois <erik.dubois@gmail.com>
+pkgname=edu-alci-grub-theme-git
+_pkgname=edu-alci-grub-theme
+destinationdir1="/usr/share/grub/themes/alci"
+destinationdir2="/boot/grub/themes/alci"
+_licensedir="/usr/share/arcolinux/licenses/"
+pkgver=23.03
+pkgrel=34
+pkgdesc="Grub theme for ArcoLinux -D -B from Edu"
+arch=(any)
+url="https://github.com/erikdubois/edu-alci-grub-theme"
+license=('GPL3')
+optdepends=('grub-customizer')
+makedepends=('git')
+depends=()
+install=readme.install
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+source=(${_pkgname}::git+${url})
+md5sums=('SKIP')
+package() {
+	mkdir -p "${pkgdir}${_licensedir}${_pkgname}"
+	mv "${srcdir}/${_pkgname}/"LICENSE "${pkgdir}${_licensedir}${_pkgname}/LICENSE"
+	mkdir -p "${pkgdir}${destinationdir1}"
+	cp -r "${srcdir}/${_pkgname}/${destinationdir1}/"* "${pkgdir}${destinationdir1}"
+	mkdir -p "${pkgdir}${destinationdir2}"
+	cp -r "${srcdir}/${_pkgname}/${destinationdir2}/"* "${pkgdir}${destinationdir2}"
+	#mkdir -p "${pkgdir}${destinationdir3}"
+	#cp -r "${srcdir}/${_pkgname}/${destinationdir3}/"* "${pkgdir}${destinationdir3}"
+}
