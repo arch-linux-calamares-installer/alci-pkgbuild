@@ -1,9 +1,9 @@
 post_install() {
-    echo -e "\n** The files have been installed in /boot/grub/themes/alci **\n"
+    echo -e "\n** The files have been installed in /usr/share/grub/themes/alci **\n"
     if grep -q GRUB_THEME /etc/default/grub ; then
-        sed -i '/GRUB_THEME/c GRUB_THEME="/boot/grub/themes/alci/theme.txt"' /etc/default/grub
+        sed -i '/GRUB_THEME/c GRUB_THEME="/usr/share/grub/themes/alci/theme.txt"' /etc/default/grub
     else
-        echo 'GRUB_THEME="/boot/grub/themes/alci/theme.txt"' | sudo tee -a /etc/default/grub
+        echo 'GRUB_THEME="/usr/share/grub/themes/alci/theme.txt"' | sudo tee -a /etc/default/grub
     fi
     grub-mkconfig -o /boot/grub/grub.cfg
 }

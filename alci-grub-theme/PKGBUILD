@@ -2,10 +2,10 @@
 pkgname=alci-grub-theme-git
 _pkgname=alci-grub-theme
 destinationdir1="/usr/share/grub/themes/alci"
-destinationdir2="/boot/grub/themes/alci"
+#destinationdir2="/boot/grub/themes/alci"
 _licensedir="/usr/share/arcolinux/licenses/"
 pkgver=23.03
-pkgrel=35
+pkgrel=37
 pkgdesc="Grub theme for Alci"
 arch=(any)
 url="https://github.com/erikdubois/edu-alci-grub-theme"
@@ -24,8 +24,8 @@ package() {
 	mv "${srcdir}/${_pkgname}/"LICENSE "${pkgdir}${_licensedir}${_pkgname}/LICENSE"
 	mkdir -p "${pkgdir}${destinationdir1}"
 	cp -r "${srcdir}/${_pkgname}/${destinationdir1}/"* "${pkgdir}${destinationdir1}"
-	mkdir -p "${pkgdir}${destinationdir2}"
-	cp -r "${srcdir}/${_pkgname}/${destinationdir2}/"* "${pkgdir}${destinationdir2}"
+	#mkdir -p "${pkgdir}${destinationdir2}"
+	#cp -r "${srcdir}/${_pkgname}/${destinationdir2}/"* "${pkgdir}${destinationdir2}"
 	#mkdir -p "${pkgdir}${destinationdir3}"
 	#cp -r "${srcdir}/${_pkgname}/${destinationdir3}/"* "${pkgdir}${destinationdir3}"
 }
