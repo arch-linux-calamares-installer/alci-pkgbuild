@@ -20,7 +20,7 @@ echo "Scans the existing folders"
 echo "Be sure you have the highest number for all of them"
 echo
 echo "#############################################################################################"
-echo "Give the pkgversion number like 22.06"
+echo "Give the pkgversion number like 23.01"
 echo "#############################################################################################"
 
 read pkgver
