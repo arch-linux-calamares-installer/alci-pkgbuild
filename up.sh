@@ -30,6 +30,13 @@
 # reset - commit your changes or stash them before you merge
 # git reset --hard - personal alias - grh
 
+#Find the commit you want to reset to:
+#git log
+#Once you have the hash:
+#git reset --hard <hash>
+#git push -f origin master
+
+
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
 git pull
