@@ -1,8 +1,8 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=alci-calamares-config-hardened
 _destname1="/etc"
-pkgver=23.10
-pkgrel=01
+pkgver=24.02
+pkgrel=02
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"
