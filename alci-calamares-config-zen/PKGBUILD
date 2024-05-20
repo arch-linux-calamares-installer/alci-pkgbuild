@@ -1,8 +1,8 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=alci-calamares-config-zen
 _destname1="/etc"
-pkgver=24.02
-pkgrel=10
+pkgver=24.05
+pkgrel=01
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"
