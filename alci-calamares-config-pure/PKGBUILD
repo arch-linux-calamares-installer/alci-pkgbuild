@@ -1,7 +1,7 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=alci-calamares-config-pure
 _destname1="/etc"
-pkgver=24.05
+pkgver=24.10
 pkgrel=01
 pkgdesc="calamares for ALCI"
 arch=('any')
