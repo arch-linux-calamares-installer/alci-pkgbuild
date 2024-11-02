@@ -1,8 +1,8 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=alci-calamares-config-xanmod
 _destname1="/etc"
-pkgver=24.10
-pkgrel=01
+pkgver=24.11
+pkgrel=05
 pkgdesc="calamares for ALCI"
 arch=('any')
 url="https://github.com/arch-linux-calamares-installer"
