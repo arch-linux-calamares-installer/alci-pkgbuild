@@ -5,11 +5,11 @@
 
 pkgname=alci-calamares
 _pkgname=calamares
-pkgver=3.3.13.241220
+pkgver=3.3.14.250121
 #_pkgver=3.3.12
-_replacethisversion=3.3.12
-pkgrel=01
-_commit=ed92ad6
+_replacethisversion=3.3.13
+pkgrel=02
+_commit=babaddf
 pkgdesc='Distribution-independent installer framework'
 arch=('i686' 'x86_64')
 license=(GPL)
@@ -63,7 +63,7 @@ source=($_pkgname::git+https://github.com/calamares/calamares#commit=$_commit
 	"calamares_polkit"
 	"49-nopasswd-calamares.rules")
 
-sha256sums=('3b4fe2d0145ad2ff1e3a0e9c295afcbfecf555cbf2b56d5b6513f8a4b9ffa0e1'
+sha256sums=('f9f0b04edd26efe8ccce195d276368851cd601d443ad9c76bcb0aff5bf2ba90a'
             'd6a5ce002c99586dfa0cb8621cad631f148dfd0d6d234c31643a63c585c546ee'
             'c176b28007bd1c1f23d8dbb2c936fa54d0c01bacfb67290ddad597606c129df3'
             '56d85ff6bf860b9559b8c9f997ad9b1002f3fccc782073760eca505e3bddd176')
